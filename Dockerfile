@@ -46,7 +46,7 @@ VOLUME /import /cache /mapping
 ENV IMPORT_DIR=/import \
     IMPOSM_CACHE_DIR=/cache \
     MAPPING_YAML=/mapping/mapping.yaml \
-    DIFF_DIR=/import \
+    DIFF_DIR=/import/diffs \
     TILES_DIR=/import \
     CONFIG_JSON=config.json
 
