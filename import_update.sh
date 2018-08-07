@@ -11,8 +11,6 @@ function update() {
         -mapping "$MAPPING_YAML" \
         -cachedir "$IMPOSM_CACHE_DIR" \
         -diffdir "$DIFF_DIR" \
-        -expiretiles-dir "$TILES_DIR" \
-        -expiretiles-zoom 14 \
         -config $CONFIG_JSON
 }
 
