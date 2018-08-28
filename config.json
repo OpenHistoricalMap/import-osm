@@ -1,4 +1,4 @@
 {
     "replication_url": "http://dump.openhistoricalmap.org/replication/minute/",
-    "replication_interval": "5m"
+    "replication_interval": "1h"
 }
