@@ -33,7 +33,7 @@ RUN go get github.com/julien-noblet/download-geofabrik \
  # && git clone --quiet --depth 1 https://github.com/omniscale/imposm3 \
  #
  # update to current omniscale/imposm3
- && git clone --quiet --depth 1 https://github.com/openmaptiles/imposm3.git -b v2017-10-18 \
+ && git clone --quiet --depth 1 https://github.com/openmaptiles/imposm3.git -b 0.6.0-alpha4 \
         $GOPATH/src/github.com/omniscale/imposm3 \
  && make build \
  && mv imposm3 /usr/bin/imposm3 \
